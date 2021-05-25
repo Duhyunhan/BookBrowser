@@ -1,0 +1,24 @@
+.container {
+  /* border: 1px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+.title,
+.authors,
+.publisher,
+.datetime,
+.price {
+  line-height: 1.5;
+  /* border: 1px solid red; */
+  margin: 0;
+  text-align: center;
+  color: gray;
+}
+.title,
+.price {
+  font-weight: bold;
+  color: black;
+}

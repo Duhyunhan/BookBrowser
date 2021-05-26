@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 30px;
   width: 200px;
 }
 .title,
@@ -21,4 +22,9 @@
 .price {
   font-weight: bold;
   color: black;
+}
+.thumbnail {
+  width: 150px;
+  height: 200px;
+  /* border: 2px solid; */
 }
